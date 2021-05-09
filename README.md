@@ -64,9 +64,16 @@ After running the above command copy the address provided by the prompt after su
 
 ![image](https://user-images.githubusercontent.com/65490196/95606960-b1c89d00-0a78-11eb-8aa3-87683dc990ed.png)
 
-### RESULT
+### RESULT:
 <br>
 
 ![image](https://user-images.githubusercontent.com/65490196/95607243-184dbb00-0a79-11eb-98c5-a29aa3ea0f6d.png)
 
-### And we're done! We've successfully deployed the ML model using FLASK!
+### More Prediction Results:
+<br>
+<img src="https://raw.githubusercontent.com/kanchitank/Gender-Classification-Web-App-Using-Flask/main/results/1.PNG"> <br>
+<img src="https://raw.githubusercontent.com/kanchitank/Gender-Classification-Web-App-Using-Flask/main/results/2.PNG"> <br>
+<img src="https://raw.githubusercontent.com/kanchitank/Gender-Classification-Web-App-Using-Flask/main/results/3.PNG"> <br>
+<img src="https://raw.githubusercontent.com/kanchitank/Gender-Classification-Web-App-Using-Flask/main/results/4.PNG"> <br>
+<img src="https://raw.githubusercontent.com/kanchitank/Gender-Classification-Web-App-Using-Flask/main/results/5.PNG"> <br>
+<img src="https://raw.githubusercontent.com/kanchitank/Gender-Classification-Web-App-Using-Flask/main/results/6.PNG">                                                                                                      
