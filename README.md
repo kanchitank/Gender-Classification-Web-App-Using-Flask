@@ -2,7 +2,7 @@
 
 <img src = "https://miro.medium.com/max/5120/1*fR5nPplVxFLEBrYG0Z9Afw.jpeg" width="70%">
 
-### This project aims to detect/predict the gender of individuals from their names using Machine Learning and deploying the Machine Learning model using FLASK.
+### This project aims to detect/predict the gender of individuals from their names using Machine Learning algorithms and deploying the Machine Learning model using FLASK.
 
 ### Algorithms Used:
 - **Decision Tree**
