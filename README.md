@@ -1,8 +1,8 @@
-# GENDER CLASSIFICATION WEB APP USING FLASK
+# Gender Classification Web App Using FLASK
 
 <img src = "https://miro.medium.com/max/5120/1*fR5nPplVxFLEBrYG0Z9Afw.jpeg" width="70%">
 
-### This project aims to detect/predict gender of individuals from their names using Machine Learning.
+### This project aims to detect/predict the gender of individuals from their names using Machine Learning and deploying the Machine Learning model using FLASK.
 
 ### Algorithms Used:
 - **Decision Tree**
