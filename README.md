@@ -71,9 +71,9 @@ After running the above command copy the address provided by the prompt after su
 
 ### More Prediction Results:
 <br>
-<img src="https://raw.githubusercontent.com/kanchitank/Gender-Classification-Web-App-Using-Flask/main/results/1.PNG"> <br>
-<img src="https://raw.githubusercontent.com/kanchitank/Gender-Classification-Web-App-Using-Flask/main/results/2.PNG"> <br>
-<img src="https://raw.githubusercontent.com/kanchitank/Gender-Classification-Web-App-Using-Flask/main/results/3.PNG"> <br>
-<img src="https://raw.githubusercontent.com/kanchitank/Gender-Classification-Web-App-Using-Flask/main/results/4.PNG"> <br>
-<img src="https://raw.githubusercontent.com/kanchitank/Gender-Classification-Web-App-Using-Flask/main/results/5.PNG"> <br>
-<img src="https://raw.githubusercontent.com/kanchitank/Gender-Classification-Web-App-Using-Flask/main/results/6.PNG">                                                                                                      
+<img src="https://raw.githubusercontent.com/kanchitank/Gender-Classification-Web-App-Using-Flask/main/results/Prediction_1.PNG"> <br>
+<img src="https://raw.githubusercontent.com/kanchitank/Gender-Classification-Web-App-Using-Flask/main/results/Prediction_2.PNG"> <br>
+<img src="https://raw.githubusercontent.com/kanchitank/Gender-Classification-Web-App-Using-Flask/main/results/Prediction_3.PNG"> <br>
+<img src="https://raw.githubusercontent.com/kanchitank/Gender-Classification-Web-App-Using-Flask/main/results/Prediction_4.PNG"> <br>
+<img src="https://raw.githubusercontent.com/kanchitank/Gender-Classification-Web-App-Using-Flask/main/results/Prediction_5.PNG"> <br>
+<img src="https://raw.githubusercontent.com/kanchitank/Gender-Classification-Web-App-Using-Flask/main/results/Prediction_6.PNG">                                                                                                      
