@@ -1,45 +1,44 @@
-from flask import Flask,render_template,url_for,request
-from flask_bootstrap import Bootstrap 
-import pandas as pd 
-import numpy as np 
+# Written by Kanchi Tank
 
-# ML Packages
-from sklearn.feature_extraction.text import CountVectorizer
+from flask_bootstrap import Bootstrap
+from flask import Flask, request, render_template, url_for
+import numpy as np
+import pandas as pd
+
+# Import Packages
 import joblib
+from sklearn.feature_extraction.text import CountVectorizer
 
+gender_app = Flask(__name__)
+Bootstrap(gender_app)
 
-app = Flask(__name__)
-Bootstrap(app)
-
-
-@app.route('/')
+@gender_app.route('/')
 def index():
 	return render_template('index.html')
 
-@app.route('/predict', methods=['POST'])
+@gender_app.route('/predict', methods=['POST'])
 def predict():
-	df= pd.read_csv("data/Names_dataset.csv")
+	df = pd.read_csv("data/Names_dataset.csv")
 	# Features and Labels
-	df_X = df.name
-	df_Y = df.gender
+	x_df = df.name
+	y_df = df.gender
     
     # Vectorization
-	corpus = df_X.values.astype('U')
+	corpus = x_df.values.astype('U')
 	cv = CountVectorizer()
 	X = cv.fit_transform(corpus) 
 	
-	# Loading our ML Model
-	naivebayes_model = open("models/naivebayesgendermodel.pkl","rb")
-	clf = joblib.load(naivebayes_model)
+	# Loading the ML Model
+	nb = open("models/naivebayes.pkl","rb")
+	clf_1 = joblib.load(nb)
 
-	# Receives the input query from form
+	# Receive the input
 	if request.method == 'POST':
-		namequery = request.form['namequery']
-		data = [namequery]
-		vect = cv.transform(data).toarray()
-		my_prediction = clf.predict(vect)
-	return render_template('results.html',prediction = my_prediction,name = namequery.upper())
-
+		name_query = request.form['name_query']
+		data = [name_query]
+		vct = cv.transform(data).toarray()
+		my_prediction = clf_1.predict(vct)
+	return render_template('results.html', prediction = my_prediction, name = name_query.upper())
 
 if __name__ == '__main__':
-	app.run(debug=True)
+	gender_app.run(debug=True)
