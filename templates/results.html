@@ -1,3 +1,5 @@
+<!-- Written by Kanchi Tank -->
+
 {% extends "bootstrap/base.html" %}
 {% block content %}
 <link rel="stylesheet" href="{{url_for('.static', filename='css/styles.css')}}">
@@ -20,7 +22,7 @@
                     </div>
                 </p>
                 
-                <!-- Main ML Prediction Display Here -->
+                <!-- Prediction Display -->
                 {% if prediction ==  0 %}
                 <p class="card-text">
                     <div class="alert alert-danger" role="alert">
@@ -36,7 +38,7 @@
                 {% endif%}
             </div>
 
-            <!-- Main ML Prediction Display Ends Here -->
+            <!-- Prediction Display Ends -->
             <div class="card-footer text-muted"></div>
         </div>
     </div>

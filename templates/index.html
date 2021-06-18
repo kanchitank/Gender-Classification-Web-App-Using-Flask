@@ -1,3 +1,5 @@
+<!-- Written by Kanchi Tank -->
+
 {% extends "bootstrap/base.html" %}
 {% block content %}
 <link rel="stylesheet" href="{{url_for('.static', filename='css/styles.css')}}">
@@ -15,7 +17,7 @@
         <div class="panel-body center_div justify-content-center">
             <!-- Main Input For Receiving Query to our ML -->
             <form action="{{ url_for('predict')}}" method="POST">
-                <input type="text" name="namequery" placeholder="Name" style="text-align: center; justify-content: center; margin-left: 66rem">
+                <input type="text" name="name_query" placeholder="Name" style="text-align: center; justify-content: center; margin-left: 66rem">
                 <br><br>
                 <button type="submit" class="btn" style="justify-content: center; color: #fff; background-image: linear-gradient(to right, #7b4397, #aa3464); text-align: center; margin-left: 72rem">Predict</button>
             </form>
@@ -27,5 +29,5 @@
 {% endblock %}
 
 {% block styles %}
-{{super()}}  <!--Allows Javascripts and other styles to be inclusive in bootstrap -->
+{{super()}}  <!--Allows Javascript and other styles to be inclusive in bootstrap -->
 {% endblock %}
